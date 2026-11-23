@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.trendtemplate/templates",
+  "title": "TrendTemplate",
+  "description": "Read-only catalog of TrendTemplate's AI trend video templates: memes, photos needed, lengths, prices.",
+  "version": "1.0.0",
+  "websiteUrl": "https://trendtemplate.com",
+  "repository": {
+    "url": "https://github.com/ken-fs/trendtemplate-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://trendtemplate.com/mcp"
+    }
+  ]
+}
